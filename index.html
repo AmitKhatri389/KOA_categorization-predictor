@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KOA Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Knee Osteoarthritis Classifier</h1>
+        
+        <div class="upload-box">
+            <input type="file" id="xray-upload" accept="image/*">
+            <button onclick="predict()">Analyze X-Ray</button>
+        </div>
+        
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
